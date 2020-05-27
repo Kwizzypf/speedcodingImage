@@ -1,0 +1,17 @@
+.selected
+{
+    background-color: blue;
+}
+
+.img {
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -2s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:1500px; top:1500px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
